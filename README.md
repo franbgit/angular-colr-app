@@ -18,6 +18,18 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
+## Running sintax checker
+
+Run `ng lint` to execute sintax checker via [TSLint](https://palantir.github.io/tslint/).
+
+## Running code formatter
+
+Run `npx prettier --write src` to execute code formatter via [Prettier](https://www.npmjs.com/package/tslint-config-prettier).
+
+## Running code minifier
+
+Run `ng build --prod` to execute code minifier via [Angular CLI](https://cli.angular.io/).
+
 ## Running end-to-end tests
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
