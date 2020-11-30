@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable, throwError } from 'rxjs';
 import { retry, catchError } from 'rxjs/operators';
 
-import { RandomColor } from '../../models';
+import { RandomColor } from '@core/models';
 
 @Injectable({
   providedIn: 'root',

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 
-import { NodeAttributes } from '../../models';
+import { NodeAttributes } from '@core/models';
 
 @Injectable()
 export class SvgNodeService {

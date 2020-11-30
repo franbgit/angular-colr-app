@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 import * as d3 from 'd3';
 
-import { ColorService, SvgNodeService } from '../core/services';
+import { ColorService, SvgNodeService } from '@core/services';
 
 const corners = [
   { x: 25, y: 25 },
