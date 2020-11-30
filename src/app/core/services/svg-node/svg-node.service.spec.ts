@@ -6,7 +6,9 @@ describe('SvgNodeService', () => {
   let service: SvgNodeService;
 
   beforeEach(() => {
-    TestBed.configureTestingModule({});
+    TestBed.configureTestingModule({
+      providers: [SvgNodeService],
+    });
     service = TestBed.inject(SvgNodeService);
   });
 
