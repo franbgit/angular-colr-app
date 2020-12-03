@@ -3,8 +3,6 @@ import { HttpClientTestingModule } from '@angular/common/http/testing';
 
 import { HomeComponent } from './home.component';
 
-import { SvgNodeService } from '@core/services';
-
 describe('HomeComponent', () => {
   let component: HomeComponent;
   let fixture: ComponentFixture<HomeComponent>;
@@ -13,7 +11,7 @@ describe('HomeComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [HomeComponent],
       imports: [HttpClientTestingModule],
-      providers: [{ provide: 'API_URL', useValue: 'test' }, SvgNodeService],
+      providers: [{ provide: 'API_URL', useValue: 'test' }],
     }).compileComponents();
   });
 
